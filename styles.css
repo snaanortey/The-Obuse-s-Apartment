@@ -12,8 +12,6 @@ h2 {
 
 h3 {
   font-family: 'Beau Rivage', cursive;
-  color: #283148;
-  ;
   font-size: 45px;
 }
 
@@ -28,7 +26,15 @@ body {
   font-weight: bold;
 }
 
-div {}
+.dial_number {
+  color: red;
+  text-decoration: underline;
+}
+
+.extra {
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
+}
 
 a:link, a:visited {
   background-color: #F6F6F6;
@@ -91,7 +97,7 @@ table {
 
 .intro {
   font-family: 'Beau Rivage', cursive;
-  color: #283148;
+  color: #8A1253;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 20px;

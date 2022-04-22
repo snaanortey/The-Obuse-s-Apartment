@@ -1,1 +1,3 @@
-# The-Obuse-s-Apartment
+# 👫 The Obuse's apartment 🏠
+
+## Let's say you're at E14 3UL. How do you get to Naa and Ehimah's exact apartment? Easy. Follow the steps below...

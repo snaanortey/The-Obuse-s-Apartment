@@ -1,3 +1,56 @@
-h1 {color: red;}
+h1 {font-family: 'Courgette', cursive;
+font-size: 50px;
+  color: #CC9B6D;}
 
-.first_div {background-color: #EEECDA;}
+  h2 {font-family: 'Courgette', cursive;}
+
+  img {
+  width: 100%;
+  height: auto;
+}
+
+
+.container {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 0; /* Some padding */
+  margin: 0;
+}
+
+.first_div {background-color: #F8EDE3;
+margin: 0;
+padding: 0;
+border: 0;}
+
+.second_div {background-color: #F8F5F1;
+  margin: 0;
+padding: 0;
+border: 0;}
+
+.third_div {background-color: #EAE3C8;
+  margin: 0;
+padding: 0;
+border: 0;}
+
+.fourth_div {background-color: #F5F4F4;
+  margin: 0;
+padding: 0;
+border: 0;}
+
+.elevator_image {position: relative;
+left: 70px;}
+
+.fifth_div {background-color: #FFEADB;
+  margin: 0;
+padding: 0;
+border: 0;}

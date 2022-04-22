@@ -54,7 +54,15 @@ border: 0;}
 .elevator_image {position: relative;
 left: 70px;}
 
+.apartment_8_img {position: relative;
+left: 70px;}
+
 .fifth_div {background-color: #FFEADB;
   margin: 0;
 padding: 0;
 border: 0;}
+
+.sixth_div {background-color: #FEF7DC;
+  margin: 0;
+  padding: 0;
+  border: 0;}

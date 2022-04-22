@@ -3,7 +3,7 @@ h1 {
   font-size: 85px;
   color: #CC9B6D;
   word-wrap: break-word;
-  font-style: oblique;
+  font-weight: bold;
 }
 
 h2 {
@@ -23,7 +23,10 @@ body {
   padding: 10px;
 }
 
-
+.play_video {
+  color: red;
+  font-weight: bold;
+}
 
 div {}
 
@@ -105,8 +108,6 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 .first_div {
   background-color: #F8EDE3;

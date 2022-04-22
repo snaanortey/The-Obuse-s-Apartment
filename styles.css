@@ -1,73 +1,157 @@
-h1 {font-family: 'Courgette', cursive;
-font-size: 50px;
-  color: #CC9B6D;}
-
-  h2 {font-family: 'Courgette', cursive;}
-
-  h3 {font-family: 'Merriweather', serif;
-color:#F0A500}
-
-div {white-space: nowrap;
-        overflow: hidden;
-        text-overflow: clip;}
-
-p {font-family: 'Yanone Kaffeesatz', sans-serif;}
-  img {
-    max-width: 100%;
-    height: auto;
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 85px;
+  color: #CC9B6D;
+  word-wrap: break-word;
+  font-style: oblique;
 }
 
-table {padding: 100px;}
+h2 {
+  font-family: 'Courgette', cursive;
+}
+
+h3 {
+  font-family: 'Beau Rivage', cursive;
+  color: #283148;
+  ;
+  font-size: 45px;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+
+
+div {}
+
+a:link, a:visited {
+  background-color: #F6F6F6;
+  color: blue;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+}
+
+div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+table {
+  padding: 100px;
+}
 
 .container {
   position: relative;
-  max-width: 100%; /* Maximum width */
-  margin: 0; /* Center it */
+  max-width: 100%;
+  /* Maximum width */
+  margin: 0;
+  /* Center it */
 }
 
 .container .content {
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 0; /* Some padding */
+  position: absolute;
+  /* Position the background text */
+  bottom: 0;
+  /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 100%;
+  /* Full width */
+  padding: 0;
+  /* Some padding */
   margin: 0;
 }
 
-.first_div {background-color: #F8EDE3;
-margin: 0;
-padding: 0;
-border: 0;}
+.intro {
+  font-family: 'Beau Rivage', cursive;
+  color: #283148;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-.second_div {background-color: #F8F5F1;
-  margin: 0;
-padding: 0;
-border: 0;}
+.first_div, .second_div, .third_div,
+.fourth_div, .fifth_div, .sixth_div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  border: 0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.third_div {background-color: #EAE3C8;
-  margin: 0;
-padding: 0;
-border: 0;}
 
-.fourth_div {background-color: #F5F4F4;
-  margin: 0;
-padding: 0;
-border: 0;}
 
-.elevator_image {position: relative;
-left: 70px;}
+.first_div {
+  background-color: #F8EDE3;
+}
 
-.apartment_8_img {position: relative;
-left: 70px;}
+.float_parent {}
 
-.fifth_div {background-color: #FFEADB;
-  margin: 0;
-padding: 0;
-border: 0;}
+.float_child>img {
+  height: 400px;
+  border-radius: 10px;
+}
 
-.sixth_div {background-color: #FEF7DC;
-  margin: 0;
-  padding: 0;
-  border: 0;}
+.float_child {
+  float: left;
+  width: 50%;
+}
+
+.second_div {
+  background-color: #F8F5F1;
+}
+
+.third_div {
+  background-color: #EAE3C8;
+}
+
+.fourth_div {
+  background-color: #F5F4F4;
+}
+
+.elevator_image {
+  position: relative;
+  left: 70px;
+}
+
+.apartment_8_img {
+  position: relative;
+  left: 70px;
+}
+
+.fifth_div {
+  background-color: #FFEADB;
+}
+
+.sixth_div {
+  background-color: #FEF7DC;
+}
+
+.footer {}

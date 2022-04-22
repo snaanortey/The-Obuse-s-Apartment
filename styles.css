@@ -4,6 +4,10 @@ font-size: 50px;
 
   h2 {font-family: 'Courgette', cursive;}
 
+  h3 {font-family: 'Merriweather', serif;
+color:#F0A500}
+
+p {font-family: 'Yanone Kaffeesatz', sans-serif;}
   img {
   width: 100%;
   height: auto;
